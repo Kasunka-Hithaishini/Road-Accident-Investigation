@@ -1,0 +1,45 @@
+﻿body {
+    background-image: url('../Images/RDAMainBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#form1 {
+    background-color: rgb(230,230,250);
+    margin-top:40px;
+}
+#colspan {
+    background-color: rgb(219,112,147);
+}
+table {
+    font-size: 22px;
+    margin-left: 540px;
+    text-align:center;
+    margin-top:-230px;
+    background-color: rgb(245,245,220);
+}
+td{
+    padding:10px;
+}
+.title {
+    background-color: rgb(222,184,135);
+}
+h2 {
+    font-size: 54px;
+    margin-left: 50px;
+    padding-top: 60px;
+    color: rgb(128,0,128);
+    font-family: Cooper Black;
+}
+#btnRDAhome {
+    height: 50px;
+    width: 260px;
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 620px;
+    font-family: Cooper Black;
+    border-radius:20px;
+}
+    #btnRDAhome:hover {
+        background-color: rgb(221,160,221);
+        border-color: rgb(221,160,221);
+    }

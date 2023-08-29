@@ -1,0 +1,69 @@
+﻿body {
+    background-image: url('../Images/RDAMainBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#safeP{
+    height:120px;
+    width:800px;
+}
+#rdaLogo {
+    padding-left: 230px;
+    margin-right: -20px;
+    width: 400px;
+    height: 120px;
+    box-shadow: rgb(60,179,113) 8px 8px;
+}
+#menutitles {
+    font-size: 34px;
+    width: 700px;
+}
+
+h2{
+    text-align:center;
+    background-color:blanchedalmond;
+    font-size:36px;
+}
+
+#text {
+    width: 500px;
+    height: 300px;
+    font-size: 22px;
+    margin-left: 20px;
+    margin-top: 200px;
+    text-align: justify;
+    font-family: Georgia;
+    background-color: rgb(238,232,170);
+}
+#roadPic{
+    height:450px;
+    width:870px;
+    margin-left:600px;
+    margin-top:-500px;
+}
+#line {
+    margin-top: 60px;
+    background-color: darkgoldenrod;
+    
+}
+#linetext {
+    color: white;
+    font-size: 40px;
+    text-align:center;
+    font-family: Yu Gothic UI Semibold;
+}
+.footertitle {
+    text-align: center;
+    background-color: mistyrose;
+}
+h3 {
+    font-size: 32px;
+    margin-left: 24px;
+    text-align:center;
+    background-color: sandybrown;
+}
+ul {
+    font-size: 28px;
+    margin-left: 120px;
+    font-family: Georgia;
+}

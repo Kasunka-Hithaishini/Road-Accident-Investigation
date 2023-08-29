@@ -1,0 +1,62 @@
+﻿body {
+    background-image: url('../Images/PLCreateBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1{
+    margin-left:-90px;
+    margin-top:20px;
+    padding-top:20px;
+}
+#plLogo{
+    height:130px;
+    width:130px;
+    margin-left:1300px;
+    margin-top:-180px;
+}
+#form {
+    background-color: wheat;
+    width: 740px;
+    height: 240px;
+    margin-left: 340px;
+    margin-top: 80px;
+    opacity: 0.7;
+    color: black;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+label{
+    padding-top:14px;
+}
+.txtbox{
+    margin-left:120px;
+    height:26px;
+    width:250px;
+}
+.txtbox:hover {
+    border-color: rgb(255,215,0);
+    border-width:3px;
+}
+#btnSignUP {
+    margin-top: 24px;
+    margin-left: 500px;
+    height: 56px;
+    width: 150px;
+    font-family: Cooper Black;
+    font-size: 28px;
+    background-color: rgb(152,251,152);
+    border-color: rgb(152,251,152);
+    border-radius: 30px;
+}
+#btnSignUP:hover{
+    background-color:darksalmon;
+}
+#title {
+    background-color: darkblue;
+    height: 140px;
+    color: white;
+    text-align: center;
+    padding-top: -7px;
+    font-size: 34px;
+}

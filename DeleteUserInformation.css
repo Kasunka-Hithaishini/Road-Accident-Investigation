@@ -1,0 +1,33 @@
+﻿body {
+    background-image: url('../Images/DeletBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#deleteForm {
+    background-color: rgb(224,255,255);
+    font-family: Cascadia Code SemiBold;
+    font-size:20px;
+    height:400px;
+    width:900px;
+    margin-left:300px;
+    padding-left:60px;
+    padding-top:20px;
+    margin-top:90px;
+}
+.text{
+    margin-left:100px;
+    width:220px;
+    height:20px;
+}
+#btnimgdelete, #btnDeletedata, #btnShow {
+    height: 38px;
+    font-size: 24px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: rgb(250,250,210);
+    background-color: rgb(250,250,210);
+}
+#btnShow:hover,#btnimgdelete:hover,#btnDeletedata:hover {
+        background-color: rgb(143,188,143);
+        border-color: rgb(143,188,143);
+    }

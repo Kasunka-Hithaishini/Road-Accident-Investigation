@@ -1,0 +1,28 @@
+﻿body {
+    background-image: url('../Images/Uproad.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+h1 {
+    text-align: center;
+}
+form {
+    margin-left: 300px;
+    margin-top: 60px;
+    width: 800px;
+}
+
+.labels {
+    font-size: 26px;
+    font-family: Cascadia Code SemiBold;
+}
+
+.textbox {
+    font-size: 26px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+    .textbox:hover {
+        border-color: green;
+    }

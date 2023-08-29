@@ -1,0 +1,45 @@
+﻿#safeP {
+    height: 120px;
+    width: 800px;
+}
+
+#rdaLogo {
+    padding-left: 230px;
+    margin-right: -20px;
+    width: 400px;
+    height: 120px;
+    box-shadow: rgb(60,179,113) 8px 8px;
+}
+
+#menutitles {
+    float: left;
+    font-size: 34px;
+    width: 700px;
+}
+table {
+    padding-top: 28px;
+    margin-left: 200px;
+}
+
+#firstrow {
+    padding-top: 20px;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(188,143,143);
+    font-size: 26px;
+}
+
+td {
+    text-align: center;
+    padding-top: 8px;
+}
+footer {
+    padding-top: 30px;
+}
+
+.footertitle {
+    text-align: center;
+    background-color: mistyrose;
+}

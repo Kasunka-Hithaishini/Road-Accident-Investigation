@@ -1,0 +1,19 @@
+﻿body{
+    background-color:palevioletred;
+}
+h2{
+    margin-left:8px;
+    padding-left:24px;
+    padding-top:8px;
+    padding-bottom:8px;
+    font-size:28px;
+    background-color:forestgreen;
+    color:white;
+}
+#localmap{
+    background-repeat:no-repeat;
+    margin-left:500px;
+    width:500px;
+    height:800px;
+    box-shadow:blue 8px 8px;
+}

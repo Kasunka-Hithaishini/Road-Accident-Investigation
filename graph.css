@@ -1,0 +1,20 @@
+﻿header{
+    height:160px;
+    background-color:darkgoldenrod;
+}
+.countryLogo {
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+}
+#minimenutable {
+    margin-left: 230px;
+    margin-top: -100px;
+    padding-right: 40px;
+    width: 80%;
+}
+.menutitle {
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+}
