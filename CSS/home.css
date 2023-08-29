@@ -1,0 +1,118 @@
+﻿#menu{
+    background-color:darkblue;
+    height:115px;
+}
+.countryLogo{
+    height:90px;
+    width:90px;
+    padding:10px;
+}
+#minimenutable{
+    margin-left:230px;
+    margin-top:-100px;
+    padding-right:40px;
+    width:80%;
+}
+.menutitle {
+    font-size: 40px;
+    text-align:center;
+    align-content:center;
+}
+#icontable{
+   margin-top:16px;
+   margin-left:880px;
+}
+.imgicons {
+    height: 150px;
+    width: 140px;
+}
+#miniInfo{
+    background-color:orange;
+}
+h2 {
+    color: white;
+    font-size: 50px;
+    font-family: Amasis MT Pro Medium;
+    text-align:center;
+}
+#BClinkedarea{
+    background-color:lightslategrey;
+}
+.linkedbox {
+    height: 500px;
+    width: 400px;
+    background-color: papayawhip;
+    border-width: 3px;
+    border-block-style: solid;
+    border-color: darkblue;
+    border-bottom-color: darkblue;
+    float: left;
+    margin-top: 25px;
+}
+#rdaLB{
+    margin-left:140px;
+}
+#policeLB, #insuranceLB{
+    margin-left:15px;
+}
+#rdaLpic{
+    padding-left:50px;
+    padding-top:20px;
+    width:300px;
+    height:170px;
+}
+#policeLpic{
+    height:170px;
+    width:260px;
+    padding-left:66px;
+    padding-top:20px;
+}
+#VinsuranceLpic{
+    padding-left:54px;
+    padding-top:20px;
+    height:168px;
+    width:300px;
+}
+h3{
+    text-align:center;
+}
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Cascadia Code ExtraLight;
+    text-align:justify;
+}
+.MInfo{
+    height:40px;
+    width:40px;
+}
+#rdaMInfo {
+    padding-left: 320px;
+    margin-top: -260px;
+    padding-bottom:40px;
+}
+#policeMInfo{
+    padding-left:320px;
+    margin-top:-260px;
+    padding-bottom:40px;
+}
+#insuranceMInfo{
+    padding-left:320px;
+    padding-bottom:20px;
+}
+h4{
+    padding-left:120px;
+}
+footer {
+    background-color: black;
+    font-family: Cascadia Code SemiBold;
+    color:white;
+    margin-top: 600px;
+    height: 300px;
+}
+#footertitle, #footerlist{
+    color:white;
+}
+#footerlist {
+    list-style-image:url(Images/Tick.png);
+}

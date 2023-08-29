@@ -1,0 +1,60 @@
+﻿#policeLogo {
+    background-image: url('../Images/slPlogo.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 250px;
+}
+.sidebar {
+    background-color: lightgray;
+    height: 900px;
+    width: 250px;
+}
+#txtnavigate {
+    padding-top: 15px;
+}
+#menutitle {
+    background-color: darkblue;
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    margin-left: 270px;
+    margin-top: -1840px;
+}
+#policebox{
+    height:700px;
+    width:900px;
+    background-color:lightcyan;
+    margin-left:300px;
+    padding-left:200px;
+}
+#datapic{
+    height:350px;
+    width:800px;
+    margin-left:8px;
+    padding-top:30px;
+}
+#enterdetails{
+    margin-left:100px;
+    padding-left:90px;
+    padding-top:30px;
+    font-size:24px;
+}
+.detbox{
+    padding-top:10px;
+    margin-left:60px;
+    margin-top:30px;
+    margin-top:20px;
+    width:250px;
+}
+#txtpassword{
+    padding-left:100px;
+}
+#btnsubmit{
+    height:50px;
+    width:150px;
+    text-align:center;
+    padding-top:10px;
+    margin-top:40px;
+    margin-left:600px;
+    border-radius:10px;
+}

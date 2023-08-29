@@ -1,0 +1,58 @@
+﻿#safeP {
+    height: 120px;
+    width: 800px;
+}
+
+#rdaLogo {
+    padding-left: 230px;
+    margin-right: -20px;
+    width: 400px;
+    height: 120px;
+    box-shadow: rgb(60,179,113) 8px 8px;
+}
+#menutitles {
+    float: left;
+    font-size: 34px;
+    width: 700px;
+}
+#rdaSignIn {
+    height: 500px;
+    width: 1000px;
+    margin-left: 350px;
+    background-color: rgb(189,183,107);
+}
+.signInpic{
+    height:500px;
+    width:600px;
+}
+#txtdropDown, #lblPassword, #txtdropDown, #txtPassword, #lblselectD {
+    margin-left: 650px;
+    padding-left: 30px;
+}
+#details{
+    margin-top:-500px;
+    font-size:28px;
+    padding-top:40px;
+}
+#txtPassword,#txtdropDown{
+    margin-top:20px;
+    padding-top:20px;
+    padding-left:100px;
+    margin-left:700px;
+    text-align:left;
+}
+#btnSubmit {
+    margin-left: 800px;
+    margin-top: 50px;
+    background-color: rgb(255,215,0);
+    width:130px;
+    height: 50px;
+}
+    #btnSubmit:hover {
+        background-color: rgb(218,165,32);
+    }
+#btnNewAccount{
+    margin-left:660px;
+    margin-top:60px;
+    font-size:18px;
+}

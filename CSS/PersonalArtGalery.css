@@ -1,0 +1,51 @@
+﻿#toptite {
+    margin-left: 600px;
+}
+
+#td1 {
+    background-color: black;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td2 {
+    background-color: lightskyblue;
+    column-width: 200px;
+    height: 1500px;
+}
+
+#td3 {
+    background-color: darkorange;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td4 {
+    background-color: sandybrown;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td5 {
+    background-color: orangered;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td6 {
+    background-color: darkseagreen;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td7 {
+    background-color: yellow;
+    column-width: 180px;
+    height: 1500px;
+}
+
+#td8 {
+    background-color: burlywood;
+    column-width: 180px;
+    height: 1500px;
+}

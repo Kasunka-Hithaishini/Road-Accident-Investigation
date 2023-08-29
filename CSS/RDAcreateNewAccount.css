@@ -1,0 +1,61 @@
+﻿body {
+    background-image: url('../Images/RDACreateBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#menubox {
+    height: 160px;
+    background-color: rgb(189,183,107);
+}
+#safeP {
+    height: 120px;
+    width: 800px;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+#rdaLogo {
+    margin-left: 280px;
+    margin-right: -20px;
+    margin-top:20px;
+    width: 400px;
+    height: 120px;
+    box-shadow: rgb(60,179,113) 8px 8px;
+}
+#form {
+    background-color: wheat;
+    width: 740px;
+    height: 240px;
+    margin-left: 300px;
+    margin-top: 80px;
+    opacity: 0.7;
+    color: black;
+    font-size: 26px;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.txtbox {
+    margin-left: 120px;
+    height: 26px;
+    width: 250px;
+}
+
+.txtbox:hover {
+        border-color: rgb(255,215,0);
+        border-width: 3px;
+}
+#RDAbtnSignUP {
+    margin-top: 24px;
+    margin-left: 510px;
+    height: 56px;
+    width: 150px;
+    font-family: Cooper Black;
+    font-size: 28px;
+    background-color: rgb(152,251,152);
+    border-color: rgb(152,251,152);
+    border-radius: 30px;
+}
+
+#RDAbtnSignUP:hover {
+        background-color: darksalmon;
+    }

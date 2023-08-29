@@ -1,0 +1,70 @@
+﻿#policeLogo {
+    background-image: url('../Images/slPlogo.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 250px;
+}
+.sidebar{
+    background-color:lightgray;
+    height:1500px;
+    width:250px;
+}
+#txtnavigate{
+    padding-top:15px;
+}
+#menutitle{
+    background-color:darkblue;
+    font-size:34px;
+    color:white;
+    text-align:center;
+    margin-left:270px;
+    margin-top:-1840px;
+}
+.sidepic {
+    background-repeat: no-repeat;
+    height: 320px;
+    width: 600px;
+    margin-left: 880px;
+    margin-top: -20px;
+}
+#textP {
+    width: 500px;
+    height: 600px;
+    margin-left: 320px;
+    margin-top: -250px;
+    text-align: justify;
+    font-size: 24px;
+    font-family: Yu Gothic UI Semibold;
+}
+.records {
+    margin-left: 400px;
+    margin-top: -300px;
+}
+#infoacc {
+    width: 80%;
+    font-size:18px;
+}
+h3{
+    font-size:28px;
+    color:darkblue;
+}
+th {
+    font-size: 25px;
+    background-color: rgb(0,206,209);
+}
+td{
+    padding-top:8px;
+    text-align:center;
+}
+#tblchart{
+    margin-top:100px;
+}
+#footerArea{
+    background-color:darkblue;
+    height:300px;
+    margin-top:30px;
+}
+#tblchart{
+    margin-left:450px;
+    margin-top:-30px;
+}

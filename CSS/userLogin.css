@@ -1,0 +1,56 @@
+﻿body {
+    background-image: url('../Images/loginBC.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.minibox {
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    box-shadow: rgba(176,196,222) 10px 10px;
+    opacity: 0.6;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+#loginPC{
+    margin-left:110px;
+    padding-left:160px;
+    margin-top:-90px;
+}
+.lbl {
+    font-size: 26px;
+    margin-left: 40px;
+    color: black;
+    font-family: Bahnschrift SemiBold;
+}
+.txtbox{
+    width:70%;
+    padding-left:40px;
+    margin-left:60px;
+    margin-top:22px;
+    border-width:3px;
+    height:40px;
+}
+    .txtbox:hover {
+        border-color: rgb(255,140,0);
+    }
+#lblUserEmail{
+    margin-top:40px;
+    padding-top:80px;
+}
+#txtPassword{
+    margin-top:30px;
+}
+#btnSubmit {
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-left: 200px;
+    background-color: rgb(221,160,221);
+    border-color:none;
+    border-radius:30px;
+    height: 50px;
+    width: 160px;
+}
+    #btnSubmit:hover {
+        background-color: rgb(154,205,50);
+    }
