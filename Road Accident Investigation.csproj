@@ -1,0 +1,378 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{68C43CD1-FE40-4719-9984-A96CB12F5ECB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Road_Accident_Investigation</RootNamespace>
+    <AssemblyName>Road Accident Investigation</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44398</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AA Class Road.aspx" />
+    <Content Include="AB Class Road.aspx" />
+    <Content Include="App_Data\RoadAccidentInformation.mdf" />
+    <Content Include="App_Data\RoadAccidentInformation_log.ldf">
+      <DependentUpon>RoadAccidentInformation.mdf</DependentUpon>
+    </Content>
+    <Content Include="CSS\AAclassRoad.css" />
+    <Content Include="CSS\ABclassRoad.css" />
+    <Content Include="CSS\data.css" />
+    <Content Include="CSS\DeleteUserInformation.css" />
+    <Content Include="CSS\graph.css" />
+    <Content Include="CSS\home.css" />
+    <Content Include="CSS\inputUserInformation.css" />
+    <Content Include="CSS\insurance.css" />
+    <Content Include="CSS\networkOfExpresswayRoads.css" />
+    <Content Include="CSS\networkOfLocalAreas.css" />
+    <Content Include="CSS\noticeBoard.css" />
+    <Content Include="CSS\PersonalArtGalery.css" />
+    <Content Include="CSS\PLNewAccount.css" />
+    <Content Include="CSS\policeDepartment.css" />
+    <Content Include="CSS\projectInformation.css" />
+    <Content Include="CSS\RDAContactUs.css" />
+    <Content Include="CSS\RDAcreateNewAccount.css" />
+    <Content Include="CSS\rdaOffice.css" />
+    <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="CSS\updateUserInformation.css" />
+    <Content Include="CSS\userLogin.css" />
+    <Content Include="Data.aspx" />
+    <Content Include="DeleteUserInformation.aspx" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\22.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\c1.png" />
+    <Content Include="Images\c2.jpg" />
+    <Content Include="Images\c3.jpg" />
+    <Content Include="Images\DeletBC.jpg" />
+    <Content Include="Images\dsdsc1.jpg" />
+    <Content Include="Images\ewew.jpg" />
+    <Content Include="Images\first.jfif" />
+    <Content Include="Images\fourth.jpg" />
+    <Content Include="Images\g1.jpeg" />
+    <Content Include="Images\g1.jpg" />
+    <Content Include="Images\g2.jpg" />
+    <Content Include="Images\g3.jpeg" />
+    <Content Include="Images\g3.jpg" />
+    <Content Include="Images\g4.jpg" />
+    <Content Include="Images\g5.jpeg" />
+    <Content Include="Images\g5.jpg" />
+    <Content Include="Images\g6.jpg" />
+    <Content Include="Images\g7.jpeg" />
+    <Content Include="Images\g7.jpg" />
+    <Content Include="Images\g8.jpg" />
+    <Content Include="Images\jc-gellidon-UIp163xCV6w-unsplash.jpg" />
+    <Content Include="Images\PLCreateBC.jpg" />
+    <Content Include="Images\qw22.jpg" />
+    <Content Include="Images\RDACreateBC.jpg" />
+    <Content Include="Images\RDAMainBC.jpg" />
+    <Content Include="Images\second.jfif" />
+    <Content Include="Images\third.jfif" />
+    <Content Include="Images\Tick.png" />
+    <Content Include="InsuranceAccidentsaspx.aspx" />
+    <Content Include="InsuranceCreateNewAccount.aspx" />
+    <Content Include="Js\lineChart.js" />
+    <Content Include="Js\piechart.js" />
+    <Content Include="Graphs.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Images\authority.png" />
+    <Content Include="Images\expressway.jpg" />
+    <Content Include="Images\Graphicon.png" />
+    <Content Include="Images\highway.jpg" />
+    <Content Include="Images\InputData.png" />
+    <Content Include="Images\localarea.jpg" />
+    <Content Include="Images\loginBC.jpg" />
+    <Content Include="Images\loginIcon.png" />
+    <Content Include="Images\MoreInfo.jpg" />
+    <Content Include="Images\policedata.jpg" />
+    <Content Include="Images\policegroup.jpg" />
+    <Content Include="Images\rdaLogo.jpg" />
+    <Content Include="Images\rdaSignIn.jpg" />
+    <Content Include="Images\roadInBC.png" />
+    <Content Include="Images\safeP.jpg" />
+    <Content Include="Images\slPlogo.png" />
+    <Content Include="Images\SriLankanLogo.jpg" />
+    <Content Include="Images\Updateicon.png" />
+    <Content Include="Images\Uproad.png" />
+    <Content Include="Images\Usericon.png" />
+    <Content Include="Images\Vinsurance.jpg" />
+    <Content Include="Input User Information.aspx" />
+    <Content Include="Insurance Company.aspx" />
+    <Content Include="Js\police.js" />
+    <Content Include="Js\TimeEvaluation.js" />
+    <Content Include="Js\Vtype.js" />
+    <Content Include="Network Of Expressway Roads.aspx" />
+    <Content Include="Network of local areas.aspx" />
+    <Content Include="Notice Board.aspx" />
+    <Content Include="Police Department.aspx" />
+    <Content Include="PoliceCreateNewAccount.aspx" />
+    <Content Include="Project Information.aspx" />
+    <Content Include="RDA Office.aspx" />
+    <Content Include="RDAContactUS.aspx" />
+    <Content Include="RDACreateNewAccount.aspx" />
+    <Content Include="Update User Information.aspx" />
+    <Content Include="User Registration.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AA Class Road.aspx.cs">
+      <DependentUpon>AA Class Road.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AA Class Road.aspx.designer.cs">
+      <DependentUpon>AA Class Road.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AB Class Road.aspx.cs">
+      <DependentUpon>AB Class Road.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AB Class Road.aspx.designer.cs">
+      <DependentUpon>AB Class Road.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Data.aspx.cs">
+      <DependentUpon>Data.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Data.aspx.designer.cs">
+      <DependentUpon>Data.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUserInformation.aspx.cs">
+      <DependentUpon>DeleteUserInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteUserInformation.aspx.designer.cs">
+      <DependentUpon>DeleteUserInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Graphs.aspx.cs">
+      <DependentUpon>Graphs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Graphs.aspx.designer.cs">
+      <DependentUpon>Graphs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Input User Information.aspx.cs">
+      <DependentUpon>Input User Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Input User Information.aspx.designer.cs">
+      <DependentUpon>Input User Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Insurance Company.aspx.cs">
+      <DependentUpon>Insurance Company.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Insurance Company.aspx.designer.cs">
+      <DependentUpon>Insurance Company.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsuranceAccidentsaspx.aspx.cs">
+      <DependentUpon>InsuranceAccidentsaspx.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsuranceAccidentsaspx.aspx.designer.cs">
+      <DependentUpon>InsuranceAccidentsaspx.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsuranceCreateNewAccount.aspx.cs">
+      <DependentUpon>InsuranceCreateNewAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsuranceCreateNewAccount.aspx.designer.cs">
+      <DependentUpon>InsuranceCreateNewAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Network Of Expressway Roads.aspx.cs">
+      <DependentUpon>Network Of Expressway Roads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Network Of Expressway Roads.aspx.designer.cs">
+      <DependentUpon>Network Of Expressway Roads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Network of local areas.aspx.cs">
+      <DependentUpon>Network of local areas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Network of local areas.aspx.designer.cs">
+      <DependentUpon>Network of local areas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Notice Board.aspx.cs">
+      <DependentUpon>Notice Board.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Notice Board.aspx.designer.cs">
+      <DependentUpon>Notice Board.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Police Department.aspx.cs">
+      <DependentUpon>Police Department.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Police Department.aspx.designer.cs">
+      <DependentUpon>Police Department.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PoliceCreateNewAccount.aspx.cs">
+      <DependentUpon>PoliceCreateNewAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PoliceCreateNewAccount.aspx.designer.cs">
+      <DependentUpon>PoliceCreateNewAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project Information.aspx.cs">
+      <DependentUpon>Project Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project Information.aspx.designer.cs">
+      <DependentUpon>Project Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RDA Office.aspx.cs">
+      <DependentUpon>RDA Office.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDA Office.aspx.designer.cs">
+      <DependentUpon>RDA Office.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RDAContactUS.aspx.cs">
+      <DependentUpon>RDAContactUS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDAContactUS.aspx.designer.cs">
+      <DependentUpon>RDAContactUS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RDACreateNewAccount.aspx.cs">
+      <DependentUpon>RDACreateNewAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RDACreateNewAccount.aspx.designer.cs">
+      <DependentUpon>RDACreateNewAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Update User Information.aspx.cs">
+      <DependentUpon>Update User Information.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Update User Information.aspx.designer.cs">
+      <DependentUpon>Update User Information.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User Registration.aspx.cs">
+      <DependentUpon>User Registration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User Registration.aspx.designer.cs">
+      <DependentUpon>User Registration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\NewFolder1\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62670</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44398/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
